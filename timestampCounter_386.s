@@ -14,9 +14,9 @@
 
 // func Counter(result *uint64)
 TEXT ·Counter+0(SB),$0-4
-	RDTSC
-	MOVL    result+0(FP),BX
-	MOVL    AX, (BX)
-	MOVL    DX, 4(BX)
+    RDTSC
+    MOVL    result+0(FP),BX
+    MOVL    AX, (BX)
+    MOVL    DX, 4(BX)
     RET
 
