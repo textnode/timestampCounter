@@ -12,6 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// This Go code acts as a fallback for processor architectures other than x86.
+//
+
 package timestampCounter
 
 func Counter(result *uint64)
